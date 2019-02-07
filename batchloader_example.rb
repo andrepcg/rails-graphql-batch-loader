@@ -11,8 +11,8 @@ end
 products = load_products([1, 2, 3])
 # Product Load  SELECT products.* FROM products WHERE products.id IN (1, 2, 3)
 
-categories = products.map do |post|
-  load_category(post) # no query is initiated here
+categories = products.map do |product|
+  load_category(product) # no query is initiated here
 end
 
 # categories = [#<BatchLoader:0x140529968442360>, #<BatchLoader:0x140529968430680>, #<BatchLoader:0x140529968425600>]

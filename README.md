@@ -1,4 +1,4 @@
-This is an example project for GraphQL using the batch-loader gem
+# This is an example project for GraphQL using the batch-loader gem
 
 batch-loader gem: https://github.com/exAspArk/batch-loader
 
